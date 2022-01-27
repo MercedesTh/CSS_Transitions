@@ -12,7 +12,7 @@
     height: 50px;
     margin: 25px 10px;
     background: slateblue;
-    transition: width 5s linear
+    transition: width 5s linear;
 }
 
 .transition1:hover{
@@ -112,6 +112,7 @@ img{
     border-radius: 50%;
     position: absolute;
     left: 0;
+    transition: left 1s linear;
     
 }
 
@@ -124,6 +125,7 @@ img{
     position: absolute;
     left: 200px;
     top: 65px;
+    transition: left 3s linear 1s;
 }
 
 .click:active{
